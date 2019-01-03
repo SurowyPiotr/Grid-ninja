@@ -1,0 +1,28 @@
+body{
+    color: #fff;
+    font-family: 'Nunito Semibold';
+    text-align: center;
+}
+
+#content div{
+    background: #3bbced;
+    padding: 10px;
+}
+#content div:hover{
+    background: #3ccdff
+}
+#content div:nth-child(even){
+    background: #777;
+}
+#content div:nth-child(even):hover{
+    background: #677;
+}
+
+.box1{
+    flex-grow: 1;
+    flex-flow: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center
+}
